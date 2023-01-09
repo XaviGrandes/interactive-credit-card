@@ -14,7 +14,7 @@ body {
   width: 375px;
 }
 .main-container__bg-section {
-  background-image: url(./images/bg-main-mobile.png);
+  background-image: url("./images/bg-main-mobile.png");
   background-repeat: no-repeat;
   height: 240px;
   position: relative;
@@ -28,7 +28,7 @@ body {
     display: flex;
   }
   .main-container__bg-section {
-    background-image: url(./images/bg-main-desktop.png);
+    background-image: url("./images/bg-main-desktop.png");
     width: 900px;
     height: 100vh;
     left: 0px;
@@ -39,7 +39,7 @@ body {
   width: 288px;
   height: 160px;
   color: hsl(0deg, 0%, 100%);
-  background-image: url(./images/bg-card-front.png);
+  background-image: url("./images/bg-card-front.png");
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -100,7 +100,7 @@ body {
   width: 288px;
   height: 160px;
   color: hsl(0deg, 0%, 100%);
-  background-image: url(./images/bg-card-back.png);
+  background-image: url("./images/bg-card-back.png");
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
